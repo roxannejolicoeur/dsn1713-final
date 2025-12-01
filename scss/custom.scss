@@ -1,0 +1,52 @@
+// Import Google fonts here
+
+
+
+// Include any default variable overrides here (colors, font sizes, font family, etc..)
+
+$primary: #a3560e;
+$secondary: #450a0a;
+$success: #fbfad3;
+$info: #603509;
+$warning: #fffcd5;
+$danger: #E5446D;
+$light: #fdfdfd;
+$dark: #2e0505;
+
+$body-bg: #f2f2f2;
+// Adjust nav link hover color here
+$navbar-dark-hover-color: #f51a1a;
+
+
+// Change font sizes for h1-h6 using values in assignment
+
+$h1-font-size: 3.052rem;
+$h2-font-size: 2.441rem;
+$h3-font-size: 1.953rem;
+$h4-font-size: 1.563rem;
+$h5-font-size: 1.25rem;
+$h6-font-size: 1rem;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Add additional custom code here
+
+#hero {
+    background-image: url(../images/bookcity-homepage.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#shop{
+    background-image: url(../images/shop-now.jpg );
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#community{
+    background-image: url(../images/community.jpg );
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
